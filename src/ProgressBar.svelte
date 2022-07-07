@@ -1,3 +1,7 @@
+<script>
+    export let progress;
+</script>
+
 <style>
     .progress-container {
         margin: 20px 0;
@@ -13,7 +17,7 @@
 
 <div bp="grid">
     <div class="progress-container" bp="offset-5@md 4@md 12@sm">
-        <div class="progressbar" style="width: 20%">
+        <div class="progressbar" style="width: {progress}%">
             <span class="sr-only">%</span>
         </div>
     </div>

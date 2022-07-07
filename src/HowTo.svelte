@@ -4,8 +4,6 @@
     }
 </style>
 
-<p>How to</p>
-
 <div bp="grid">
     <img
         bp="offset-5@md 4@md 12@sm"
